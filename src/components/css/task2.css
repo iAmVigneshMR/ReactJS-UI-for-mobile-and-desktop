@@ -1,0 +1,96 @@
+#app {
+  width: 20%;
+  border: 1px solid black;
+  margin: 0px 35%;
+}
+
+#app .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 10px;
+}
+
+#app .nav i {
+  color: #ff4e4e;
+  font-size: 1.5rem;
+  padding: 25px 10px;
+}
+
+#app .nav p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+#app h1 {
+  font-size: 1.6rem;
+  padding: 0px 15px;
+}
+
+#app .main-down {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px 0px;
+}
+
+#app .main-down .cards {
+  width: 100px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px 0px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#app .main-down img {
+  height: 80px;
+  border-radius: 100%;
+  width: 50%;
+}
+
+#app .main-down p {
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+#app .up-right p {
+  font-size: 1rem;
+  color: #6d6969;
+  padding: 10px 10px;
+}
+
+#app .up-right .line {
+  margin: 10px 10px 50px 0px;
+  width: 55px;
+  height: 2px;
+  background-color: #ff4e4e;
+}
+/*# sourceMappingURL=task2.css.map */
