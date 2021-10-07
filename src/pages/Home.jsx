@@ -7,12 +7,12 @@ const Home = () => {
         <Fragment>
             <div id="container">
                 <div className="contents">
-                    <h1>Inkoop Task : </h1>
+                    <h1>UI design : </h1>
                     <button>
-                        <Link className="lnk" to="task1">Task 1</Link>
+                        <Link className="lnk" to="task1">For Desktop</Link>
                     </button>
                     <button>
-                        <Link className="lnk" to="task2">Task 2</Link>
+                        <Link className="lnk" to="task2">For Moblie</Link>
                     </button>
                 </div>
             </div>
